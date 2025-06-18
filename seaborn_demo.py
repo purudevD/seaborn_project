@@ -12,6 +12,9 @@ matches  = pattern.finditer(sentence)
 numbers = [float(match.group(0)) for match in matches]
 
 vol_spheres = [round(4/3 * math.pi * r ** 3, 3) for r in numbers]
+
+
+
 print(vol_spheres)
 
 # add code to calculate the vol of cube
@@ -21,3 +24,8 @@ print(f'these are the volume of cubes = {vol_cube}')
 # I am going to make change in the master branch
 print('Changes made in master branch')
 sentence = 'Change made in master'
+
+
+print(f'This is the vol of sphere = {vol_spheres}')
+r = 100
+print(f'The vol of sphere when r = {r} is {4/3 * math.pi * r ** 3}')
