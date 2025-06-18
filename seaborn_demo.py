@@ -38,3 +38,7 @@ print(f'In the master branch the value of r is {r}')
 # change done in vol_sphere branch
 a = 400
 print(f'In the vol sphere branch a = {a}')
+
+
+b = 100
+print(b **3)
